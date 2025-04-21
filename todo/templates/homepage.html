@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Welcome to the Todo Board App</h2>
+<p>A simple drag-and-drop task manager.</p>
+<div style="margin-top: 20px;">
+    <a href="{% url 'login' %}"><button>Login</button></a>
+    <a href="{% url 'signup' %}"><button>Sign Up</button></a>
+</div>
+{% endblock %}
